@@ -15,6 +15,12 @@
     <div id="root">
         <h1>{{ h1Text }}</h1>
         <img :src="immagine" alt="">
+
+        <div>
+        <input type="text" v-model="name">
+        <button @click="nameAlert">Invia</button>
+        <p>Il tuo nome è {{ name }}</p>
+        </div>
     </div>
     
 </body>
