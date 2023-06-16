@@ -13,3 +13,7 @@ const app = createApp({
         }
     }
 })
+
+
+// Insert vue inside HTML
+app.mount('#root');
